@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT fundmoments.wsgi:application
+web: python run.py
