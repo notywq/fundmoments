@@ -1,0 +1,40 @@
+
+<html>
+	<head>
+		<title>FundMoments</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/assets/css/luxbar.css" />
+	</head>
+	
+	
+	
+	
+	<body >
+	<header id="luxbar" class="luxbar-fixed">
+		<input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+		<div class="luxbar-menu luxbar-menu-right luxbar-menu-dark">
+			<ul class="luxbar-navigation">
+				<li class="luxbar-header">
+					<a style = "padding-top:7px;padding-left:7px;"href="index"><img  src="/images/logo_h_white.png" height="19px"/></a>
+					<label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+					id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+				</li>
+				<li class="luxbar-item"><a href="createmoment">Create a Moment</a></li>
+
+				<li class="luxbar-item"><a href="#">My Moments</a></li>
+
+				<li class="luxbar-item"><a href="#">Settings</a></li>
+			
+				<li class="luxbar-item"><a href="contact">Contact Us</a></li>
+
+				<li class="luxbar-item"><a href="#">Log-Out</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	{% block content %}{% endblock %}
+	</body>
+	</html>
